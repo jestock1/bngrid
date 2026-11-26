@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<script type="text/javascript" src="js/BNGrid.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/BNGrid.css">
+		<script type="text/javascript">
+			var grid = new BNGrid();
+			function do_grid() {
+				grid.add('test1', 'test2', 'test3', 'test4');
+				grid.add('row 2 column 1', 'row 2 column 2', 'row 2 column 3', 'row 2 column 4');
+				grid.add('row 3 column 1', 'row 3 column 2', 'row 3 column 3', 'row 3 column 4');
+				grid.draw();
+				grid.selectCell("row1;col1");
+			}
+		</script>
+	</head>
+	<body onload="javascript:do_grid();">
+		<div id="BNGridContent" style="height: 96%;"></div>
+		<a href="javascript:void(0);" onclick="grid.showPendingFunctions();">Show Uncompleted Functions</a><br>
+		<div id="BNGridDebug" style="max-height: 300px; overflow: auto;"></div>
+	</body>
+</html>

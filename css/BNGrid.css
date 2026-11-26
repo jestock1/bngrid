@@ -1,0 +1,40 @@
+body, td {
+	font-family: "Sans Serif", "Times New Roman";
+	font-size: 12px;
+}
+
+.gridTable {
+	border: 1px solid #000000;
+	margin: 0px;
+	padding: 0px;
+}
+
+.gridHeader {
+	margin: 0px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	background-color: #e2ebf2;
+	background: url(../images/background.jpg);
+}
+
+.gridLeft {
+	border: 0px;
+	border-right: 1px solid #000000;
+	margin: 0px;
+	padding-left: 4px;
+	padding-right: 4px;
+	background-color: #e2ebf2;
+	min-width: 10px;
+	width: 40px;
+}
+
+.gridEntry {
+	margin: 0px;
+	border: 1px solid #EEEEEE;
+	padding-left: 4px;
+	padding-right: 4px;
+	min-width: 50px;
+	white-space: pre;
+}
