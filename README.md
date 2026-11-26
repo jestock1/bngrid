@@ -1,0 +1,1 @@
+I wrote this several years ago, probably to fill a need I had at the time, and recently discovered it again in my archives and thought I'd share in the event that others may find it useful. No license, use, fork, and abuse as you see fit
